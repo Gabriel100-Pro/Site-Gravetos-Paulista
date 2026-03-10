@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gravetos Paulista | Restaurante</title>
+  <meta name="description" content="Gravetos Paulista — Cozinha típica, buffet caprichado e sabor de fazenda. Atendimento das 18h às 23h30." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a class="brand" href="#topo" aria-label="Gravetos Paulista - Início">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">
+          <strong>Gravetos Paulista</strong>
+          <small>Cozinha típica</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__list" id="navList">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#horarios">Horários</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <a class="btn btn--primary nav__cta" href="#contato">Fazer Reserva</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="badge">
+            <span class="dot"></span>
+            <span>Estamos abertos • 18h às 23h30</span>
+          </div>
+
+          <h1>
+            Sabor de fazenda, <span class="accent">capricho</span> e
+            um buffet que dá vontade de repetir.
+          </h1>
+
+          <p>
+            No <strong>Gravetos Paulista</strong>, você encontra pratos caseiros, carnes, acompanhamentos e um ambiente acolhedor.
+            Perfeito para reunir família e amigos.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#cardapio">Ver Cardápio</a>
+            <a class="btn btn--ghost" href="#galeria">Ver Fotos</a>
+          </div>
+
+          <div class="hero__highlights">
+            <div class="mini">
+              <strong>Buffet</strong>
+              <span>Variedade diária</span>
+            </div>
+            <div class="mini">
+              <strong>Ambiente</strong>
+              <span>Família & amigos</span>
+            </div>
+            <div class="mini">
+              <strong>Atendimento</strong>
+              <span>Rápido e cordial</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__card">
+            <img src="assets/Gravetos - Ambiente.jpeg" alt="Buffet do Gravetos Paulista com pratos variados e ambiente rústico" loading="eager" />
+            <div class="hero__cardFooter">
+              <div>
+                <strong>Gravetos Paulista</strong>
+                <span>Pratos típicos & buffet completo</span>
+              </div>
+              <a class="pill" href="#contato">Localização</a>
+            </div>
+          </div>
+
+          <div class="hero__stack">
+            <img class="hero__stackImg" src="assets/linguiça.jpeg" alt="Estamos abertos - das 18h às 23h30" loading="lazy" />
+            <img class="hero__stackImg" src="assets/Mesa - Gravetos.jpg" alt="Comida caseira: legumes e linguiça acebolada" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section" id="sobre">
+      <div class="container grid2">
+        <div class="panel">
+          <h2>Um restaurante com cara de casa</h2>
+          <p>
+            A proposta do <strong>Gravetos Paulista</strong> é simples: comida boa, bem feita e servida com carinho.
+            Nossa cozinha combina receitas tradicionais com um toque especial, trazendo aquele sabor que lembra
+            almoço de família.
+          </p>
+
+          <div class="checks">
+            <div class="check">Ingredientes frescos e bem selecionados</div>
+            <div class="check">Pratos quentes e reposição constante</div>
+            <div class="check">Opções variadas no buffet</div>
+            <div class="check">Ambiente aconchegante e familiar</div>
+          </div>
+
+          <div class="panel__actions">
+            <a class="btn btn--primary" href="#contato">Chamar no WhatsApp</a>
+            <a class="btn btn--ghost" href="#horarios">Ver Horários</a>
+          </div>
+        </div>
+
+        <div class="panel panel--media">
+          <div class="mediaGrid">
+            <figure class="mediaGrid__item mediaGrid__item--big">
+              <img src="assets/Mesa - Gravetos.jpg" alt="Card de divulgação: Estamos abertos - pizza" loading="lazy" />
+            </figure>
+            <figure class="mediaGrid__item">
+              <img src="assets/Comida caseira.jpeg" alt="Comida caseira servida em bandejas" loading="lazy" />
+            </figure>
+            <figure class="mediaGrid__item">
+              <img src="assets/Gravetos - Ambiente.jpeg" alt="Buffet completo com decoração rústica" loading="lazy" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cardápio -->
+    <section class="section section--alt" id="cardapio">
+      <div class="container">
+        <div class="section__head">
+          <h2>Cardápio</h2>
+          <p>Algumas opções que fazem sucesso por aqui (ajuste como preferir).</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Buffet Completo</h3>
+            <p>Variedade de pratos quentes, saladas e acompanhamentos.</p>
+            <ul>
+              <li>Arroz, feijão e farofa</li>
+              <li>Legumes e saladas</li>
+              <li>Pratos do dia</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Grelhados & Carnes</h3>
+            <p>Carnes no ponto, com tempero especial e opções tradicionais.</p>
+            <ul>
+              <li>Linguiça acebolada</li>
+              <li>Cortes variados (conforme o dia)</li>
+              <li>Acompanhamentos caprichados</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Pizzas & Especiais</h3>
+            <p>Opções especiais em dias selecionados (ex.: noite da pizza).</p>
+            <ul>
+              <li>Sabores clássicos</li>
+              <li>Queijo e ingredientes frescos</li>
+              <li>Perfeito para compartilhar</li>
+            </ul>
+          </article>
+        </div>
+
+        
+    </section>
+
+    <!-- Galeria -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section__head">
+          <h2>Galeria</h2>
+          <p>Um pouco do que te espera no Gravetos Paulista.</p>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <button class="gallery__item" data-full="assets/Gravetos - Pizza.jpeg" aria-label="Abrir imagem do buffet">
+            <img src="assets/Gravetos - Pizza.jpeg" alt="Buffet do restaurante" loading="lazy" />
+          </button>
+          <button class="gallery__item" data-full="assets/Gravetos - Biffe com Fritas.jpeg" aria-label="Abrir imagem de comida caseira">
+            <img src="assets/Gravetos - Biffe com Fritas.jpeg" alt="Comida caseira em bandejas" loading="lazy" />
+          </button>
+          <button class="gallery__item" data-full="assets/Gravetos - Horário.jpeg" aria-label="Abrir imagem de horário de funcionamento">
+            <img src="assets/Gravetos - Horário.jpeg" alt="Estamos abertos - das 18h às 23h30" loading="lazy" />     
+          </button>
+          <button class="gallery__item" data-full="assets/Mesa - Gravetos.jpg" aria-label="Abrir imagem de divulgação">
+            <img src="assets/Mesa - Gravetos.jpg" alt="Card de divulgação com pizza" loading="lazy" /> 
+          </button>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Horários -->
+    <section class="section section--alt" id="horarios">
+      <div class="container grid2">
+        <div class="panel">
+          <h2>Horário de funcionamento</h2>
+          <p>Estamos prontos para te atender com qualidade e rapidez.</p>
+
+          <div class="schedule">
+            <div class="schedule__row">
+              <span>Todos os dias</span>
+              <strong>18:00 — 23:30</strong>
+            </div>
+            <div class="schedule__row">
+              <span>Entrega (opcional)</span>
+              <strong>Consulte no WhatsApp</strong>
+            </div>
+          </div>
+
+          <div class="panel__actions">
+            <a class="btn btn--primary" href="#contato">Pedir / Reservar</a>
+            <a class="btn btn--ghost" href="#galeria">Ver Fotos</a>
+          </div>
+        </div>
+
+        <div class="panel panel--media">
+          <img class="panel__image" src="assets/Gravetos - Horário.jpeg" alt="Estamos abertos - das 18h às 23h30" loading="lazy" />
+        </div>
+      </div>
+    </section>
+        <!-- Avaliações -->
+    <section class="section" id="avaliacoes">
+      <div class="container">
+        <div class="section__head">
+          <h2>Avaliações</h2>
+          <p>O que nossos clientes dizem sobre o Gravetos Paulista.</p>
+        </div>
+
+        <div class="reviews">
+          <article class="review">
+            <div class="review__main">
+              <header class="review__head">
+                <h3 class="review__name">Camila</h3>
+                <div class="review__meta">
+                  <div class="review__stars" aria-label="5 de 5">
+                    <span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span>
+                  </div>
+                  <span class="review__time">• há 18 dias</span>
+                </div>
+              </header>
+
+              <p class="review__text">entrega rápida, comida bem temperada e gostosa</p>
+            </div>
+
+            <button class="review__like" type="button" aria-label="Curtir avaliação de Camila">
+              <span class="review__heart" aria-hidden="true">♡</span>
+              <span class="review__count" data-count>0</span>
+            </button>
+          </article>
+
+          <article class="review">
+            <div class="review__main">
+              <header class="review__head">
+                <h3 class="review__name">Maria</h3>
+                <div class="review__meta">
+                  <div class="review__stars" aria-label="5 de 5">
+                    <span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span>
+                  </div>
+                  <span class="review__time">• há 18 dias</span>
+                </div>
+              </header>
+
+              <p class="review__text">
+                Nossa que moqueca deliciosa!! Vem tudo separadinho e da pra duas pessoas comerem e ficar MUITO satisfeito.
+              </p>
+            </div>
+
+            <button class="review__like" type="button" aria-label="Curtir avaliação de Maria">
+              <span class="review__heart" aria-hidden="true">♡</span>
+              <span class="review__count" data-count>0</span>
+            </button>
+          </article>
+
+          <article class="review">
+            <div class="review__main">
+              <header class="review__head">
+                <h3 class="review__name">Lucilene</h3>
+                <div class="review__meta">
+                  <div class="review__stars" aria-label="5 de 5">
+                    <span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span>
+                  </div>
+                  <span class="review__time">• há 24 dias</span>
+                </div>
+              </header>
+
+              <p class="review__text">
+                Gravetos, nunca falha! Melhor refeição do Campo Limpo! Entrega rápida, embalagens separadinhas e comida quentinha.
+              </p>
+            </div>
+
+            <button class="review__like" type="button" aria-label="Curtir avaliação de Lucilene">
+              <span class="review__heart" aria-hidden="true">♡</span>
+              <span class="review__count" data-count>0</span>
+            </button>
+          </article>
+
+          <article class="review">
+            <div class="review__main">
+              <header class="review__head">
+                <h3 class="review__name">Bruno</h3>
+                <div class="review__meta">
+                  <div class="review__stars" aria-label="5 de 5">
+                    <span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span>
+                  </div>
+                  <span class="review__time">• há 32 dias</span>
+                </div>
+              </header>
+
+              <p class="review__text">É a melhor comida da região.</p>
+            </div>
+
+            <button class="review__like" type="button" aria-label="Curtir avaliação de Bruno">
+              <span class="review__heart" aria-hidden="true">♡</span>
+              <span class="review__count" data-count>0</span>
+            </button>
+          </article>
+
+          <article class="review">
+            <div class="review__main">
+              <header class="review__head">
+                <h3 class="review__name">Paula</h3>
+                <div class="review__meta">
+                  <div class="review__stars" aria-label="5 de 5">
+                    <span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span><span class="star is-on">★</span>
+                  </div>
+                  <span class="review__time">• há 60 dias</span>
+                </div>
+              </header>
+
+              <p class="review__text">Eu literalmente amo, nunca me decepcionou nenhum pedido.</p>
+            </div>
+
+            <button class="review__like" type="button" aria-label="Curtir avaliação de Paula">
+              <span class="review__heart" aria-hidden="true">♡</span>
+              <span class="review__count" data-count>0</span>
+            </button>
+          </article>
+        </div>
+
+        <div class="reviews__actions">
+          <a class="btn btn--ghost" href="#contato">Quero avaliar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contato & Localização</h2>
+          <p>Fale com a gente e venha experimentar.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__card">
+            <h3>Fazer reserva / Pedir</h3>
+
+            <div class="contact__items">
+              <div class="contact__item">
+                <span class="contact__label">WhatsApp</span>
+                <a class="contact__value" href="https://wa.me/551158422609" target="_blank" rel="noopener">
+                  +55 (11) 5842-2609
+                </a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__label">Instagram</span>
+                <a class="contact__value" href="https://instagram.com/" target="_blank" rel="noopener">
+                  @gravetospaulista
+                </a>
+              </div>
+              <div class="contact__item">
+                <span class="contact__label">Endereço</span>
+                <span class="contact__value">
+                  Estr. do Campo Limpo, 2818 - Vila Pirajussara, São Paulo - SP
+                </span>
+              </div>
+            </div>
+
+            <div class="contact__actions">
+              <a class="btn btn--primary" href="https://wa.me/551158422609" target="_blank" rel="noopener">
+                Chamar no WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="#topo">Voltar ao topo</a>
+            </div>
+          </div>
+
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.1828771106293!2d-46.770721599999995!3d-23.6336209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce538a74f01ad1%3A0x7abf74cf59762fb8!2sGraveto&#39;s%20Paulista%20Restaurante%20no%20Campo%20Limpo!5e0!3m2!1sen!2sbr!4v1773165020004!5m2!1sen!2sbr"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Mapa do Gravetos Paulista"
+            ></iframe>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>© <span id="year"></span> Gravetos Paulista. Todos os direitos reservados.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Visualizador de imagens">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Fechar">×</button>
+    <img class="lightbox__img" id="lightboxImg" alt="" />
+  </div>
+
+  <script src="function.js"></script>
+</body>
+</html>
