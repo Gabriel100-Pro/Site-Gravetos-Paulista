@@ -90,11 +90,11 @@ a:hover{ opacity:.95; }
   min-width: 220px;
 }
 .brand__mark{
-  width: 38px;
-  height: 38px;
+  width: 60px;
+  height: 60px;
   border-radius: 14px;
-  background: linear-gradient(135deg, var(--gold), var(--red));
-  box-shadow: 0 12px 30px rgba(196,59,45,.25);
+  
+  
 }
 .brand__text{
   display:flex;
